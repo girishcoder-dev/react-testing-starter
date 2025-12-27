@@ -1,4 +1,4 @@
-import axios, { AxiosError } from "axios";
+import axios from "axios";
 import { Product } from "../entities";
 import { useQuery } from "react-query";
 
