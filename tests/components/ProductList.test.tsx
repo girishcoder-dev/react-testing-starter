@@ -7,7 +7,7 @@ import { delay, http, HttpResponse } from "msw";
 import ProductList from "../../src/components/ProductList";
 import { db } from "../mocks/db";
 import { server } from "../mocks/server";
-import AllProviders from "./AllProviders";
+import AllProviders from "../AllProviders";
 
 describe("ProductList", () => {
   const productIds: number[] = [];
